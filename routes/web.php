@@ -23,7 +23,6 @@ Route::post('/paypal-checkout', 'CheckoutController@paypalCheckout')->name('chec
 
 Route::get('/guestCheckout', 'CheckoutController@index')->name('guestCheckout.index');
 
-
 Route::get('/thankyou', 'ConfirmationController@index')->name('confirmation.index');
 
 
